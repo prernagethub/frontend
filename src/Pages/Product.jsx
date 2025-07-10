@@ -54,7 +54,7 @@ const Product = () => {
         loader={<h4 className="text-center">Loading...</h4>}
         endMessage={<ScrollEndoffer />}
       >
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-5 md:gap-7 p-2 sm:p-4 md:p-6 mt-4 sm:mt-7 w-full">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-3 sm:gap-5 md:gap-7 p-2 sm:p-4 md:p-6 mt-4 sm:mt-7 w-full">
           {filteredProducts.length > 0 ? (
             filteredProducts.map((p, i) => (
               <Suspense key={i} fallback={<h1>Loading...</h1>}>

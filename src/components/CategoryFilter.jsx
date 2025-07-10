@@ -10,13 +10,14 @@ const categories = [
 
 const CategoryFilter = ({ logic }) => {
   return (
-    <div className="flex justify-center gap-2 sm:gap-2 md:mt-4 px-4 flex-nowrap">
+    <div className="flex justify-center flex-wrap gap-3 px-4 mt-6">
       {categories.map((cat) => (
         <button
           key={cat}
           onClick={() => logic(cat === "All" ? "" : cat)}
-          className="btn border rounded-md font-medium transition hover:bg-amber-300 active:scale-95 active:bg-amber-400 px-2 py-1 text-[5px]  md:text-sm lg:text-base md:px-4 md:py-2 lg:px-8 lg:py-2">
-          {cat} 
+          className="bg-gray-100 text-gray-700 border border-gray-400 rounded-full px-4 py-2 text-sm hover:bg-blue-100 hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-300 transition-all duration-200"
+        >
+          {cat}
         </button>
       ))}
     </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
   const baseStyle = "nav-link";
 
   return (
-    <nav className="shadow-md px-4 md:px-20 py-3 flex items-center justify-between relative z-50 ">
+    <nav className="shadow-lg px-4 md:px-20 py-3 flex items-center justify-between relative z-50">
       {/* Logo */}
       <NavLink to="/" className="flex items-center gap-2">
         <i className="ri-shopping-bag-4-fill text-3xl text-amber-600"></i>
