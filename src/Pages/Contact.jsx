@@ -54,9 +54,9 @@ const Contact = () => {
         </form>
 
         <div className="mt-10 ">
-          <p>📍 123 ShopNest Lane, Jaipur, India</p>
+          <p>📍 123 ElitéCArt  Lane, Jaipur, India</p>
           <p>📞 +91 98765 43210</p>
-          <p>📧 support@shopnest.com</p>
+          <p>📧 support@ElitéCArt.com</p>
         </div>
       </div>
     </div>

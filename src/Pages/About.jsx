@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-4xl w-full text-center">
         <h1 className="text-4xl font-extrabold  mb-4">About Us</h1>
         <p className="text-lg  mb-8">
-          At <span className="font-semibold text-amber-700">ShopNest</span>, we
+          At <span className="font-semibold text-amber-700">ElitéCArt</span>, we
           believe shopping should be more than just a transaction — it should be
           an experience.
         </p>
@@ -33,7 +33,7 @@ const About = () => {
             </p>
             <p className="mt-4">
               Whether you're shopping for yourself or searching for the perfect
-              gift, <span className="text-amber-800 font-medium">ShopNest</span>{" "}
+              gift, <span className="text-amber-800 font-medium">ElitéCArt</span>{" "}
               is here to make every moment count.
             </p>
           </div>
