@@ -36,7 +36,9 @@ const Footer = () => {
 
         {/* Column 3 */}
         <div>
-          <h3 className="font-bold uppercase  mb-3 text-sm">Customer Policies</h3>
+          <h3 className="font-bold uppercase  mb-3 text-sm">
+            Customer Policies
+          </h3>
           <ul className="space-y-1">
             <li>Contact Us</li>
             <li>FAQ</li>
@@ -53,7 +55,9 @@ const Footer = () => {
 
         {/* Column 4 */}
         <div>
-          <h3 className="font-bold uppercase  mb-3 text-sm">Experience Our App On Mobile</h3>
+          <h3 className="font-bold uppercase  mb-3 text-sm">
+            Experience Our App On Mobile
+          </h3>
           <div className="flex gap-2 mt-2">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/512px-Google_Play_Store_badge_EN.svg.png"
@@ -70,22 +74,35 @@ const Footer = () => {
 
         {/* Column 5 */}
         <div>
-          <h3 className="font-bold uppercase text-black mb-3 text-sm">Keep in Touch</h3>
+          <h3 className="font-bold uppercase text-black mb-3 text-sm">
+            Keep in Touch
+          </h3>
           <div className="flex gap-3 text-xl mt-2">
-            <a href="#"><i className="ri-facebook-fill  hover:text-black"></i></a>
-            <a href="#"><i className="ri-twitter-fill  hover:text-black"></i></a>
-            <a href="#"><i className="ri-instagram-line  hover:text-black"></i></a>
-            <a href="#"><i className="ri-youtube-fill  hover:text-black"></i></a>
+            <a href="#">
+              <i className="ri-facebook-fill  hover:text-black"></i>
+            </a>
+            <a href="#">
+              <i className="ri-twitter-fill  hover:text-black"></i>
+            </a>
+            <a href="#">
+              <i className="ri-instagram-line  hover:text-black"></i>
+            </a>
+            <a href="#">
+              <i className="ri-youtube-fill  hover:text-black"></i>
+            </a>
           </div>
         </div>
       </div>
 
       {/* Bottom Texts */}
       <div className="max-w-7xl mx-auto mt-6 pb-8 text-xs 0 space-y-2">
-        <p>✅ <strong>100% ORIGINAL</strong> guarantee for all products at ShopNEst.com</p>
+        <p>
+          ✅ <strong>100% ORIGINAL</strong> guarantee for all products at
+          ElitéCArt .com
+        </p>
         <p>🔁 Return within 14 days of receiving your order</p>
         <p className="mt-4 text-center ">
-          &copy; {new Date().getFullYear()} ShopNest. All rights reserved.
+          &copy; {new Date().getFullYear()} ElitéCArt . All rights reserved.
         </p>
       </div>
     </footer>
